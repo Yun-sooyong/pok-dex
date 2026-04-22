@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(20, 192, 214, 0.664);
+    padding-right: 12%;
+    padding-left: 12%;
+}
+.basement {
+  width: 100%;        /* 가로폭 (원하는 크기로 조절) */
+  height: 100%;       /* 세로 높이 */
+  background-color: skyblue; /* 확인을 위한 배경색 */
+  border: 2px solid #000; /* 테두리 */
+}
