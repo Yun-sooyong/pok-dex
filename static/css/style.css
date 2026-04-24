@@ -1,26 +1,88 @@
+/* 견본 색 지정  
+#393939
+#FFFFFF
+#F2B807
+#105492
+#88BF90 
+*/
+
+
 body {
-    background-color: rgba(20, 192, 214, 0.664);
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-}
-.basement {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 80vw;
-  background-color: azure;
-  margin: 0 auto
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
 }
 
-.box {
-  justify-content: center;
+header {
+  background-color: #393939;
 }
-.search {
-  flex : 0 0 25%;
-  background-color: brown;
+
+/*  */
+.navi_wrap_container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+  flex-direction: column;
+  padding: 10px 0px;
 }
-.main {
-  flex: 0 0 75%;
+
+/* 로고는 일단 텍스트로 대체 */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* 네비 자체에는 색과 높이만 */
+nav {
+  background-color: #393939;
+  color: #FFFFFF;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+nav li {
+  border-right: 1px solid #ccc;
+  padding: 0 30px;
+ }
+nav li:last-child {
+  border-right:none;
+  
+}
+ nav a {
+  font-size: 18px;
+ }
+
+.search_tag_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search_sec {
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+  margin: auto;
+}
+
+.search_bar{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+}
+
+.tag_sec {
+  width: 100%;
+  height: 50px;
   background-color: red;
 }
